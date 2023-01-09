@@ -1,8 +1,14 @@
 .main-section {
-  display         : flex;
-  flex-direction  : row-reverse;
-  width           : 1200px;
-  background-color: #fff;
-  margin          : 40px auto;
-  box-shadow      : 6px 6px 20px rgba(0, 0, 0, 0.1);
+  display       : flex;
+  flex-direction: row-reverse;
+
+  @media screen and (min-width: 768px) {
+    padding: 30px, 25px, 30px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 30px, 50px, 30px;
+  }
+
+  box-shadow : 6px 6px 20px $secondary-text-color;
 }

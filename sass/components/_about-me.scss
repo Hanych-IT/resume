@@ -1,14 +1,14 @@
 .about-me-profession {
   @include font(14px, 700, 17px, 0.03em);
 
-  color        : #000;
+  color        : $secondary-text-color;
   margin-bottom: 20px;
 }
 
 .about-me-profession {
   font-size  : 14px;
   font-weight: 700;
-  color      : black;
+  color      : $secondary-text-color;
 }
 
 .about-me-name {
@@ -16,7 +16,7 @@
   font-weight  : bold;
   font-size    : 45px;
   line-height  : 55px;
-  color        : #000;
+  color        : $secondary-text-color;
   margin-bottom: 20px;
 }
 
@@ -26,6 +26,6 @@
   font-weight  : normal;
   font-size    : 14px;
   line-height  : 24px;
-  color        : #595959;
+  color        : $primary-text-color;
   margin-bottom: 35px;
 }

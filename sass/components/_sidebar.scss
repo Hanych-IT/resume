@@ -1,5 +1,5 @@
 .contact-span {
-  color       : #fff;
+  color       : $primary-color;
   font-weight : bold;
   font-size   : 14px;
   line-height : 24px;
@@ -7,7 +7,7 @@
 }
 
 .contacts-section-link {
-  color      : #565e6a;
+  color      : $primary-text-color;
   font-style : normal;
   font-weight: normal;
   font-size  : 14px;
@@ -15,7 +15,7 @@
 }
 
 .sidebar-section {
-  background-color: #1e2939;
+  background-color: $secondary-color;
   width           : 370px;
   padding         : 40px 0;
 }
@@ -31,7 +31,7 @@
   font-weight  : bold;
   font-size    : 22px;
   line-height  : 27px;
-  color        : #fff;
+  color        : $primary-color;
   margin-bottom: 10px;
 }
 
@@ -40,12 +40,12 @@
   font-weight: bold;
   font-size  : 14px;
   line-height: 24px;
-  color      : #fb6d3a;
+  color      : $hover-color;
   padding    : 0 0 0 17px;
 }
 
 .tech-skills-iteam {
-  color: #fb6d3a;
+  color: $hover-color;
 }
 
 .tech-skills-iteam-text {
@@ -53,7 +53,7 @@
   font-weight: normal;
   font-size  : 14px;
   line-height: 24px;
-  color      : #fff;
+  color      : $primary-color;
 }
 
 .soft-skills-list {
@@ -61,7 +61,7 @@
   font-weight: bold;
   font-size  : 14px;
   line-height: 24px;
-  color      : #fb6d3a;
+  color      : $hover-color;
   padding    : 0 0 0 17px;
 }
 
@@ -70,5 +70,5 @@
   font-weight: normal;
   font-size  : 14px;
   line-height: 24px;
-  color      : #fff;
+  color      : $primary-color;
 }
