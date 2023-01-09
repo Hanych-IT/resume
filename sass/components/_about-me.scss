@@ -1,8 +1,6 @@
 .about-me-profession {
-  font-style   : normal;
-  font-weight  : bold;
-  font-size    : 14px;
-  line-height  : 17px;
+  @include font(14px, 700, 17px, 0.03em);
+
   color        : #000;
   margin-bottom: 20px;
 }
