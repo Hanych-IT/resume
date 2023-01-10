@@ -263,7 +263,7 @@ summary {
 
 body {
   color: #595959;
-  background-color: #f5f4fa;
+  background-color: #fafafb;
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
@@ -311,7 +311,7 @@ img {
 }
 
 .about-me-profession {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
   color: #000000;
 }
@@ -319,18 +319,18 @@ img {
 .about-me-name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 30px;
   line-height: 55px;
   color: #000000;
-  margin-bottom: 20px;
+  text-align: justify;
 }
 
 .discription {
-  font-style: normal;
-  width: 400px;
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.03em;
+  font-style: normal;
   color: #595959;
   margin-bottom: 35px;
 }
@@ -343,6 +343,8 @@ img {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
   -webkit-box-shadow: 6px 6px 20px #000000;
           box-shadow: 6px 6px 20px #000000;
 }
@@ -358,7 +360,7 @@ img {
 }
 
 .main-content-section {
-  padding: 100px 90px;
+  padding: 50px 70px;
 }
 
 .maine-content-title {
@@ -384,11 +386,12 @@ img {
 }
 
 .my-projects-link {
-  color: #595959;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
+  font-weight: 700;
   line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #104b8a;
+  font-style: normal;
 }
 
 .my-projects-text {
