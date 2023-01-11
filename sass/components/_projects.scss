@@ -1,34 +1,32 @@
-.my-projects {
+.projects {
   margin: 0 0 50px 0;
 }
 
-.my-projects-list {
+.projects__list {
   padding: 0 0 0 17px;
 }
 
-.my-projects-item {
+.projects__item {
   color      : $secondary-text-color;
   font-weight: bold;
 }
 
-.my-projects-link {
-  color      : $primary-text-color;
-  font-style : normal;
-  font-weight: normal;
-  font-size  : 14px;
-  line-height: 24px;
+.projects__link {
+  @include font(18px, 700, 24px, 0.05em);
+  color     : $secondary-color;
+  font-style: normal;
 }
 
-.my-projects-text {
+.projects__text {
   color      : $primary-text-color;
   font-style : normal;
-  font-weight: normal;
-  font-size  : 14px;
+  font-weight: 700;
+  font-size  : 20px;
   line-height: 24px;
   margin-left: 5px;
 }
 
-.my-projects-brakcet {
+.projects__description {
   font-style : normal;
   font-weight: bold;
   font-size  : 14px;

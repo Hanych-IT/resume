@@ -339,23 +339,27 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  width: 1200px;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  width: 100%;
+  background-color: #ffffff;
   margin: 0 auto;
-  -webkit-box-shadow: 6px 6px 20px #000000;
-          box-shadow: 6px 6px 20px #000000;
+  -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 @media screen and (min-width: 768px) {
   .main-section {
-    padding: 30px, 25px, 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
 }
 @media screen and (min-width: 1200px) {
   .main-section {
-    padding: 30px, 50px, 30px;
+    width: 1200px;
   }
 }
 
@@ -372,38 +376,38 @@ img {
   margin-bottom: 10px;
 }
 
-.my-projects {
+.projects {
   margin: 0 0 50px 0;
 }
 
-.my-projects-list {
+.projects__list {
   padding: 0 0 0 17px;
 }
 
-.my-projects-item {
+.projects__item {
   color: #000000;
   font-weight: bold;
 }
 
-.my-projects-link {
-  font-size: 14px;
+.projects__link {
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   color: #104b8a;
   font-style: normal;
 }
 
-.my-projects-text {
+.projects__text {
   color: #595959;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 24px;
   margin-left: 5px;
 }
 
-.my-projects-brakcet {
+.projects__description {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -430,7 +434,7 @@ img {
 .sidebar-section {
   background-color: #104b8a;
   width: 370px;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .contacts-section,
