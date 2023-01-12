@@ -3,7 +3,7 @@
 }
 
 .projects__list {
-  padding: 0 0 0 17px;
+  padding-left: 20px;
 }
 
 .projects__item {
@@ -11,10 +11,45 @@
   font-weight: bold;
 }
 
+.projects__link-container {
+  display        : flex;
+  align-items    : baseline;
+  justify-content: space-between;
+  height         : 20px;
+  margin-bottom  : 2px;
+
+  &::after {
+    content         : "";
+    flex-grow       : 1;
+    height          : 1px;
+    background-color: ($primary-text-color);
+    margin-left     : 6px;
+    margin-right    : 6px;
+  }
+}
+
+.git-hub__icon {
+  width        : 20px;
+  height       : 20px;
+  border-radius: 50%;
+  margin-left  : 5px;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
 .projects__link {
   @include font(18px, 700, 24px, 0.05em);
-  color     : $secondary-color;
-  font-style: normal;
+  color       : $secondary-color;
+  font-style  : normal;
+  color       : $accent-color;
+  margin-right: 5px;
+  order       : 1;
+
+  &:hover {
+    color: $hover-color;
+  }
 }
 
 .projects__text {
