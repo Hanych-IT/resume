@@ -1,0 +1,25 @@
+.education__experience {
+  color: $hover-color;
+}
+
+.education__name-title {
+  margin-bottom: 10px;
+}
+
+.education__experience-position {
+  font-style : normal;
+  color      : $secondary-text-color;
+  font-weight: bold;
+  font-size  : 16px;
+  line-height: 20px;
+  margin     : 0 0 5px 0;
+}
+
+.education-time {
+  font-style : normal;
+  font-weight: normal;
+  font-size  : 12px;
+  line-height: 15px;
+  color      : $tertiary-color;
+  margin     : 0 0 20px 0;
+}

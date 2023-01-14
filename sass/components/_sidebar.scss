@@ -1,13 +1,13 @@
-.contact-span {
-  color       : $primary-color;
-  font-weight : bold;
-  font-size   : 14px;
-  line-height : 24px;
-  margin-right: 7px;
-}
+// .contact-span {
+//   color       : $primary-color;
+//   font-weight : bold;
+//   font-size   : 14px;
+//   line-height : 24px;
+//   margin-right: 7px;
+// }
 
 .contacts-section-link {
-  color      : $primary-text-color;
+  color      : $primary-color;
   font-style : normal;
   font-weight: normal;
   font-size  : 14px;
@@ -28,9 +28,9 @@
 .siedbar-title {
   font-style   : normal;
   font-weight  : bold;
-  font-size    : 22px;
+  font-size    : 27px;
   line-height  : 27px;
-  color        : $primary-color;
+  color        : $sidebar-title;
   margin-bottom: 10px;
 }
 
@@ -56,12 +56,12 @@
 }
 
 .soft-skills-list {
-  font-style : normal;
-  font-weight: bold;
-  font-size  : 14px;
-  line-height: 24px;
-  color      : $hover-color;
-  padding    : 0 0 0 17px;
+  font-style  : normal;
+  font-weight : bold;
+  font-size   : 14px;
+  line-height : 24px;
+  color       : $hover-color;
+  padding-left: 25px;
 }
 
 .soft-skills-iteam-text {

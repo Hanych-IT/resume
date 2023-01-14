@@ -7,7 +7,7 @@
 }
 
 .projects__item {
-  color      : $secondary-text-color;
+  color      : $hover-color;
   font-weight: bold;
 }
 
@@ -22,7 +22,7 @@
     content         : "";
     flex-grow       : 1;
     height          : 1px;
-    background-color: ($primary-text-color);
+    background-color: $primary-text-color;
     margin-left     : 6px;
     margin-right    : 6px;
   }
@@ -41,11 +41,11 @@
 
 .projects__link {
   @include font(18px, 700, 24px, 0.05em);
-  color       : $secondary-color;
-  font-style  : normal;
-  color       : $accent-color;
-  margin-right: 5px;
-  order       : 1;
+  // color       : $sidebar-title;
+  font-style     : normal;
+  // color       : $accent-color;
+  margin-right   : 5px;
+  order          : 1;
 
   &:hover {
     color: $hover-color;
@@ -62,9 +62,7 @@
 }
 
 .projects__description {
-  font-style : normal;
-  font-weight: bold;
-  font-size  : 14px;
-  line-height: 24px;
-  color      : $secondary-text-color;
+  @include font(14px, 400, 24px, 0.03em);
+  font-style: normal;
+  color     : $primary-text-color;
 }

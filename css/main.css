@@ -263,7 +263,7 @@ summary {
 
 body {
   color: #595959;
-  background-color: #fafafb;
+  background-color: #f5f4fa;
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
@@ -363,6 +363,32 @@ img {
   }
 }
 
+.education__experience {
+  color: #ff0000;
+}
+
+.education__name-title {
+  margin-bottom: 10px;
+}
+
+.education__experience-position {
+  font-style: normal;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+}
+
+.education-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 20px 0;
+}
+
 .main-content-section {
   padding: 50px 70px;
 }
@@ -385,7 +411,7 @@ img {
 }
 
 .projects__item {
-  color: #000000;
+  color: #ff0000;
   font-weight: bold;
 }
 
@@ -420,7 +446,7 @@ img {
   margin-left: 5px;
 }
 .git-hub__icon:hover {
-  background-color: #fb6d3a;
+  background-color: #ff0000;
 }
 
 .projects__link {
@@ -428,16 +454,14 @@ img {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.05em;
-  color: #104b8a;
   font-style: normal;
-  color: #a2e006;
   margin-right: 5px;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
 .projects__link:hover {
-  color: #fb6d3a;
+  color: #ff0000;
 }
 
 .projects__text {
@@ -450,23 +474,16 @@ img {
 }
 
 .projects__description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-}
-
-.contact-span {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  margin-right: 7px;
+  color: #595959;
 }
 
 .contacts-section-link {
-  color: #595959;
+  color: #ffffff;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -487,9 +504,9 @@ img {
 .siedbar-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 27px;
   line-height: 27px;
-  color: #ffffff;
+  color: #fe7b00;
   margin-bottom: 10px;
 }
 
@@ -498,12 +515,12 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #fb6d3a;
+  color: #ff0000;
   padding: 0 0 0 17px;
 }
 
 .tech-skills-iteam {
-  color: #fb6d3a;
+  color: #ff0000;
 }
 
 .tech-skills-iteam-text {
@@ -519,8 +536,8 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  color: #fb6d3a;
-  padding: 0 0 0 17px;
+  color: #ff0000;
+  padding-left: 25px;
 }
 
 .soft-skills-iteam-text {
@@ -531,25 +548,8 @@ img {
   color: #ffffff;
 }
 
-.my-work-experience-company {
-  color: #fb6d3a;
-}
-
-.my-work-experience-position {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 0 0 10px 0;
-}
-
-.my-work-time {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-  margin: 0 0 10px 0;
+.my-work-experience {
+  margin-bottom: 30px;
 }
 
 .my-work-experience-divider {
