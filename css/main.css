@@ -425,7 +425,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 20px;
+  height: 25px;
   margin-bottom: 2px;
 }
 .projects__link-container::after {
@@ -454,11 +454,9 @@ img {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.05em;
+  color: #ff0000;
   font-style: normal;
   margin-right: 5px;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
 }
 .projects__link:hover {
   color: #ff0000;
@@ -552,6 +550,24 @@ img {
   margin-bottom: 30px;
 }
 
+.work__experience-company {
+  font-style: normal;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+}
+
+.work__position {
+  font-style: normal;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+}
+
 .my-work-experience-divider {
   color: #000000;
 }
@@ -568,6 +584,6 @@ img {
   color: #595959;
 }
 
-.my-work-experience-company-block {
-  margin: 0 15px 0 0;
+.work__experience-wrapper {
+  margin: 0 15px 20px 0;
 }/*# sourceMappingURL=main.css.map */

@@ -15,7 +15,7 @@
   display        : flex;
   align-items    : baseline;
   justify-content: space-between;
-  height         : 20px;
+  height         : 25px;
   margin-bottom  : 2px;
 
   &::after {
@@ -41,11 +41,11 @@
 
 .projects__link {
   @include font(18px, 700, 24px, 0.05em);
-  // color       : $sidebar-title;
-  font-style     : normal;
-  // color       : $accent-color;
-  margin-right   : 5px;
-  order          : 1;
+  color             : $hover-color;
+  font-style        : normal;
+  // color          : $accent-color;
+  margin-right      : 5px;
+  // order       : 0;
 
   &:hover {
     color: $hover-color;
